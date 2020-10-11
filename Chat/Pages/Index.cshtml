@@ -1,0 +1,30 @@
+﻿@page
+    <div class="container">
+        <div class="row">
+            <div class="col-3">Name</div>
+            <div class="col-3"><input type="text" id="name" /></div>
+        </div>
+        <div class="row">
+            <div class="col-3">Message</div>
+            <div class="col-3"><input type="text" id="msg" /></div>
+        </div>
+        <div class="row">&nbsp;</div>
+        <div class="row"></div>
+        <div class="col-8">
+            <input type="button" id="sdBtn" value="Send" />
+        </div>
+    </div>
+
+<div class="row">
+    <div class="col-10">
+        <hr />
+    </div>
+</div>
+<div class="row">
+    <div class="col-8">
+        <ul id="msgList">       
+        </ul>
+    </div>
+</div>
+<script src="~/lib/microsoft/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/chat.js"></script>
